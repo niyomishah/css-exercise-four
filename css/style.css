@@ -7,12 +7,7 @@ body {
   font-size: 10px;
 }
 
-.container {
-  display: flex;
-  width: 75%;
-  margin: 0 auto;
 
-}
 
 h1 {
   font-family: sans-serif;
@@ -62,13 +57,38 @@ h2 {
 }
 
 
-
 @media screen and (min-width: 575px) {
-  .preview {
+  .baku {
+  width: 45%;
+  float: left;
+  }
+
+  .london {
+  width: 45%;
+  float: left;
+  }
+
+  .madrid {
+  width: 45%;
+  float: left;
+  }
+
+  .rome {
+  width: 45%;
+  float: left;
+  }
+
+  .container {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 1199px) {
-  .preview {
+  .container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
   }
 }
